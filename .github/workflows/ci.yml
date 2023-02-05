@@ -22,9 +22,9 @@ jobs:
           with:
             fetch-depth: 2
 
-        - uses: dtinth/setup-github-actions-caching-for-turbo@cdc7a9c62de9eabc5361845d97d716c795cd966b
+        - uses: dtinth/setup-github-actions-caching-for-turbo@c6e7a38e98643c6689c99174f7a7e10418b3b1f8
           with:
-            cache-prefix: turbogha_signed_
+            cache-prefix: turbogha_signed_v2_
 
         - uses: pnpm/action-setup@v2.0.1
           with:

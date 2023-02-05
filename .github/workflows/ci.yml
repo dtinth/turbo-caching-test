@@ -1,6 +1,9 @@
 # Based on https://turbo.build/repo/docs/ci/github-actions
 name: CI
 
+env:
+  TURBO_REMOTE_CACHE_SIGNATURE_KEY: whee
+
 on:
   push:
     branches: ["main"]

@@ -22,7 +22,7 @@ jobs:
           with:
             fetch-depth: 2
 
-        - uses: dtinth/setup-github-actions-caching-for-turbo@c6e7a38e98643c6689c99174f7a7e10418b3b1f8
+        - uses: dtinth/setup-github-actions-caching-for-turbo@a0e976d970c2a94366a26984efcef3030e2c0115
           with:
             cache-prefix: turbogha_signed_v2_
 
